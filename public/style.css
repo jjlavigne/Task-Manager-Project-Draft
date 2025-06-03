@@ -1,0 +1,284 @@
+body{
+    background-color: rgba(51, 51, 137, 0.086);
+}
+
+h1 {
+  color: #7200b0;
+}
+
+h3 {
+  color: blue;
+}
+
+title {
+  color:rgb(3, 11, 237);
+}
+
+.IDlabel {
+
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 11px;
+}
+
+.IDinput {
+    width: 30px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.namelabel {
+
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 36px;
+}
+
+.nameinput {
+    width: 140px;
+    margin-right: 15px;
+    text-align: left;
+    
+}
+
+.usernamelabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 71px;
+}
+
+.usernameinput {
+    width: 120px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.emaillabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 37px;
+    }
+
+.emailinput {
+    width: 175px;
+    text-align: left;
+}
+
+.address {
+    margin-bottom: 5px;
+    color: #7200b0;
+}
+
+.streetlabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.streetinput {
+    width: 100px;
+    margin-right: 12px;
+    text-align: left;
+
+}
+
+.suitelabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 34px;
+}
+
+.suiteinput {
+    width: 120px;
+    margin-right: 12px;
+    text-align: left;
+}
+
+.citylabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 24px;
+}
+
+.cityinput {
+    width: 140px;
+    margin-right: 12px;
+    text-align: left;
+
+}
+
+.zipcodelabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 57px;
+}
+
+.zipcodeinput {
+    width: 80px;
+    margin-right: 12px;
+    text-align: left;
+}
+
+.geo {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    color: #7200b0;
+}
+
+.latlabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 22px;
+    margin-left: 100px;
+}
+
+.latinput {
+    width: 80px;
+    margin-right: 15px;
+    text-align: left;
+ }
+
+.lnglabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 28px;
+}
+
+.lnginput {
+    width: 80px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.phonelabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 50px;
+}
+
+.phoneinput {
+    width: 160px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.websitelabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 60px;
+    margin-left: 20px;
+}
+
+.websiteinput {
+    width: 150px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.company {
+    margin-bottom: 5px;
+    color: #7200b0;
+}
+
+.cnamelabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 50px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+
+.cnameinput {
+    width: 150px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.catchPhraselabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 105px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.catchPhraseinput {
+    width: 500px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.bslabel {
+    color:rgb(3, 11, 237);
+    font-weight: bold;
+    width: 28px;
+    margin-left: 98px;
+}
+
+.bsinput {
+    width: 500px;
+    margin-right: 15px;
+    text-align: left;
+}    
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.responsesection {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: auto;
+    resize: vertical;
+}
+
+.radioGroup {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid rgb(3, 11, 237);
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #7200b0;
+}
+
+.fieldGroup {
+    padding: 15px;
+    border: 1px solid rgb(3, 11, 237);
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 100px;  
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%; 
+    min-height: 383px; 
+} 
+
+button {
+    padding: 10px 20px;            
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-left: 340px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
