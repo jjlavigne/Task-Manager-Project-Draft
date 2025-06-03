@@ -69,7 +69,7 @@ const userSchema = new mongoose.Schema({
 
 
 // MongoDB Atlas connection
-const mongoURI = 'mongodb+srv://NetworkAdmin:Admin@testcluster1.yneblwz.mongodb.net/?retryWrites=true&w=majority&appName=TestCluster1';
+const mongoURI = 'Enter Connection String Here';
 
 mongoose.connect(mongoURI)
 .then(() => console.log('Connected to MongoDB Atlas'))
